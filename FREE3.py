@@ -8,7 +8,7 @@ from requests.exceptions import ConnectionError
 os.system("rm -rf .txt")
 for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
-    sys.stdout = open('.txt','a')
+    sys.stdout = open('.txt', 'a')
     print nmbr
     sys.stdout.flush()
 pass
